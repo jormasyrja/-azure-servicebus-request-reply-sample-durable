@@ -1,6 +1,6 @@
 # Introduction 
 This is a sample implementation of the request-response message bus pattern using Azure Functions and Azure Service Bus.
-In this sample, a single queue for both requests and replies (instead of a temporary queue per request/reply) will be used together with some Durable Functions functionality.
+In this sample, one queue each for both requests and replies (instead of a temporary queue per request/reply) will be used together with some Durable Functions functionality.
 - .NET Core 3.1
 - Azure Functions v3
 
