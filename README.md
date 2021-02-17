@@ -9,7 +9,7 @@ Setup environment (or local.settings.json) values:
 
 |Name|Description|
 |---|---|
-|AzureWebJobsServiceBus|Connection string/SAS with read+listen rights to a ServiceBus namespace
+|AzureWebJobsServiceBus|Connection string/SAS with read/write rights to a ServiceBus namespace
 |RequestQueueName|Name of an existing queue in the above namespace, which will be used for sending the *request*|
 |ReplyQueueName|Name of an existing queue in the above namespace, which will be used for sending the *reply*|
 
